@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+
+
+
+
+            <div id="start">
+                
+                <h3>Uitleg theorie examen</h1>
+                    <div id="start-content">
+                        <p>
+                            Welkom bij het oefenexamen theorie rijbebwijs B. Het examen bestaat uit drie delen:
+                           <br> gevaarherkenning, kennis en inzicht. 
+                        </p>
+
+
+                        <p>
+                            Om te slagen moet je voor alle drie de onderdelen afzonderlijk een voldoende halen. Na afloop krijg je gelijk te zien of je geslaagd of gezakt bent.
+                        </p>
+
+
+                        <p>
+                            Je krijgt eerst 25 gevaarherkenning vragen waar je per vraag maar 8 seconden de tijd hebt om antwoord te geven. Je moet in dit onderdeel minimaal 13 vragen goed hebben. Bij iedere vraag krijg je altijd de keuze wat je in een situatie moet doen: <br>
+                            remmen, gas loslaten of niets.
+                        </p>
+
+
+                        <h5>Veel succes!</h5>
+                    </div>
+
+                <button class="start" onclick="start()">START</button>
+            
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div id="quiz" style="display: none">
+                <div id="timer">
+                    <div id="counter"></div>
+                    <div id="btimeGauge"></div>
+                    <div id="timeGauge"></div>
+                </div>
+                <div id="progress"></div>
+
+
+
+                <div id="question"></div>
+                <div id="question-area">
+                        <div id="qImg"></div>
+                        <div id="choices">
+                            <div class="choice" id="A" onclick="checkAnswer('A')">                    </div>
+                            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                        </div>
+                </div>
+            </div>
+            <!-- <div id="scoreContainer" style="display: none"></div> -->
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <script src="quiz.js"></script>
+
+</body>
+</html>
