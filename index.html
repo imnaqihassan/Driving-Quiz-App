@@ -37,7 +37,7 @@
                         <h5>Veel succes!</h5>
                     </div>
 
-                <button class="start" onclick="start()">START</button>
+                <button class="start" onclick="starting()">START</button>
             
             </div>
 
@@ -64,16 +64,24 @@
                 <div id="question-area">
                         <div id="qImg"></div>
                         <div id="choices">
-                            <div class="choice" id="A" onclick="checkAnswer('A')">                    </div>
+                            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
                             <div class="choice" id="B" onclick="checkAnswer('B')"></div>
                             <div class="choice" id="C" onclick="checkAnswer('C')"></div>
                         </div>
                 </div>
             </div>
-            <!-- <div id="scoreContainer" style="display: none"></div> -->
 
 
 
+
+            
+            <div id="scoreContainer" style="display: none"></div>
+            <div id="bottom-right">
+
+                <div id="questionStatus"></div>
+                <button id="nextButton">Next Question</button>
+
+            </div>
 
 
 
